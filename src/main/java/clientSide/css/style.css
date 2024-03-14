@@ -1,0 +1,78 @@
+body{
+    background-color: gray;
+    width: 1000px;
+    display: inline;
+    
+}
+
+main{
+    width: 90%;
+    margin: 100px;
+}
+
+img{
+    width: 10%;
+}
+input[type=text]{
+    width: 40px;
+    margin-left: 20px;
+    
+}
+
+#text2, #text3, #text4{
+    margin-left: 40px;
+}
+
+#inputsection2{
+    margin-left: 40px;
+}
+
+#reset{
+    width: 50px;
+    text-align: center;
+}
+
+#next{
+    margin-left: 60px;
+}
+#exit{
+    margin-left: 60px;
+    width: 50px;
+}
+
+input[type=button]{
+    border-radius: 10px;
+
+}
+
+main{
+    display: inline;
+}
+
+#levelsection{
+    float: left;
+}
+
+#mainlayout{
+   background-color: transparent;
+   display: inline-block;
+}
+
+#timer{
+    margin-left:130px ;
+}
+#playpause{
+    margin-left: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+#levellabel{
+    height: 20px;
+}
+#level{
+    margin-top: 0px;
+    width: 15px;
+    margin-left: 10px;
+}
