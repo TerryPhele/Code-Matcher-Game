@@ -7,22 +7,22 @@
     </head>
 
     <body>
-        <header>
+        <header id = "header">
             <h2 id="mainHeader">--CODE-MATCHER--</h2>
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>INSTRUCTIONS</li>
+                    <li>Home</li>
+                    <li>Instruction</li>
+                    <li>About</li>
                 </ul>
             </nav>
         </header>
-
+       
         <main>
-            <aside id="levelsection">
+            <section id="levelsection">
                 <h5 id="levellabel"style="font-family:serif;">LEVEL</h5>
                 <input type="text" disabled="true" id="level" name="level"></h1>
-            </aside>
-
+            </section>
             <section id="mainlayout" name="mainlayout">
 
                 <div id="timer">
@@ -39,28 +39,29 @@
                     <img src="locked.png" alt="locked" id="lock3"/>
                     <img src="locked.png" alt="locked" id="lock4"/>
                     <br>
-                    <input type="text" minlength="1" maxlength="2" max="99" id="text1"/>
-                    <input type="text" minlength="1" maxlength="2" max="99" id="text2"/> 
-                    <input type="text" minlength="1" maxlength="2" max="99" id="text3"/> 
-                    <input type="text" minlength="1" maxlength="2" max="99" id="text4"/> 
+
+                    <div id="textinputs">
+                        <input type="text" minlength="1" maxlength="2" max="99" id="text1"/>
+                        <input type="text" minlength="1" maxlength="2" max="99" id="text2"/> 
+                        <input type="text" minlength="1" maxlength="2" max="99" id="text3"/> 
+                        <input type="text" minlength="1" maxlength="2" max="99" id="text4"/> 
+                    </div>
                 </div>
                 <br/>
 
                 <div id="inputsection2">
                     <input type="button" value="reset" id="reset"/>
-                    <input type="button" value="next>>" id="next"/>
+                    <input type="button" value="unlock>>" id="next"/>
                     <input type="button" value="exit" id="exit"/>
                 </div>
+
             </section>
         </main>
 
-        <footer>
+        <footer id="footer">
             <p>email address :thereso199@gmail.com</address></p>
             <p>&copy;:2024/03/14</p>
         </footer>
-
-
-
     </body>
 
 </html>

@@ -1,78 +1,63 @@
 body{
-    background-color: gray;
-    width: 1000px;
-    display: inline;
+   text-align: center;
+   margin: 100px;
+   margin-top: 0px;
     
 }
+header{
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    background-color: darkslategray;
+    color: white;
+    font-family:'Cambria';
+    position: relative;
 
-main{
-    width: 90%;
-    margin: 100px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: darkgray;
+}
+
+ul li{
+    display: inline;
+    margin: 10px;
+}
+
+main {
+    width:100%;
+    display: inline-block;
+    font-family: monospace;
+    background-color:bisque;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 img{
     width: 10%;
 }
-input[type=text]{
-    width: 40px;
-    margin-left: 20px;
-    
-}
 
-#text2, #text3, #text4{
-    margin-left: 40px;
-}
-
-#inputsection2{
-    margin-left: 40px;
-}
-
-#reset{
-    width: 50px;
-    text-align: center;
-}
-
-#next{
-    margin-left: 60px;
-}
 #exit{
-    margin-left: 60px;
     width: 50px;
 }
 
 input[type=button]{
     border-radius: 10px;
-
 }
-
-main{
-    display: inline;
+input[type=text]{
+    width: 40px;
+    border-radius: 5px;
 }
-
-#levelsection{
-    float: left;
+footer{
+    margin: 0;
+    padding: 0;
 }
-
-#mainlayout{
-   background-color: transparent;
-   display: inline-block;
-}
-
-#timer{
-    margin-left:130px ;
-}
-#playpause{
-    margin-left: 30px;
-}
-
-ul{
-    list-style-type: none;
-}
-#levellabel{
-    height: 20px;
-}
-#level{
-    margin-top: 0px;
-    width: 15px;
-    margin-left: 10px;
+#footer{
+    background-color: darkslategray;
+    color: white;
+    position: relative;
+    bottom: 0px;
 }
